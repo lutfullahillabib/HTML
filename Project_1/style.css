@@ -1,0 +1,50 @@
+body, html{
+    height: 100%;
+    margin:7px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.introduction{
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 20cm;
+    color:rgba(231, 76, 60,1.0);
+}
+.desctiption{
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 2cm;
+    color:#8c7ae6;
+}
+
+.section_1{
+    text-align: justify;
+    font-style: italic;
+}
+.section_2{
+
+    border-radius: 50px;
+    border-style: solid;
+    border-color: #8c7ae6;
+}
+.picture_1, .picture_2, .picture_3{
+   position: relative;
+   background-attachment: fixed;
+   background-size: cover;
+   background-position: center;
+   background-attachment: fixed;
+   font-weight: 300;
+}
+
+.picture_1{
+    background-image: url('picture_1.jpg');
+    min-height: 100%;
+}
+.picture_2{
+    background-image: url('picture_2.jpg');
+    min-height: 100%;
+}
+.picture_3{
+    background-image: url('picture_3.jpeg');
+    min-height: 300px;
+}
